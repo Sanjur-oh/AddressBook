@@ -3,11 +3,11 @@
 one:
   street: MyString
   town: MyString
-  zip_code: 1
-  user_id: one
+  zip: 1
+  user: one
 
 two:
   street: MyString
   town: MyString
-  zip_code: 1
-  user_id: two
+  zip: 1
+  user: two

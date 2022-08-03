@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  resources :phone_numbers
-  resources :emails
+  resources :telephones
   resources :addresses
+  resources :emails
   resources :users
   resources :posts
   get "/hello", to: "hello#index"

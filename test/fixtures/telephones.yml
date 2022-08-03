@@ -2,8 +2,8 @@
 
 one:
   phone_number: 1
-  user_id: one
+  user: one
 
 two:
   phone_number: 1
-  user_id: two
+  user: two

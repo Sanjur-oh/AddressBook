@@ -3,8 +3,8 @@ class CreateAddresses < ActiveRecord::Migration[7.0]
     create_table :addresses do |t|
       t.string :street
       t.string :town
-      t.integer :zip_code
-      t.references :user_id, null: false, foreign_key: true
+      t.integer :zip
+      t.references :user, null: false, foreign_key: true
 
       t.timestamps
     end
