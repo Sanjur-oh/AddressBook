@@ -1,6 +1,4 @@
 class TelephonesController < ApplicationController
-
-    
     def index
         render json: Telephone.all, status: :ok
     end
@@ -35,6 +33,7 @@ class TelephonesController < ApplicationController
     end
 
     def telephone_params
-        params.permit(:phone_number)
+        params.permit(:first_name, :last_name)
     end
+
 end

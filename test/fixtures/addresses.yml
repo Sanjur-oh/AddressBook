@@ -4,10 +4,10 @@ one:
   street: MyString
   town: MyString
   zip: 1
-  user: one
+  person: one
 
 two:
   street: MyString
   town: MyString
   zip: 1
-  user: two
+  person: two
