@@ -2,8 +2,8 @@
 
 one:
   email: MyString
-  person: one
+  people: one
 
 two:
   email: MyString
-  person: two
+  people: two
